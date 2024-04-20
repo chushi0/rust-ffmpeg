@@ -12,7 +12,7 @@ use std::mem;
 
 use ffi::AVSubtitleType::*;
 use ffi::*;
-use libc::{c_uint, size_t};
+use libc::c_uint;
 
 #[derive(Eq, PartialEq, Clone, Copy, Debug)]
 pub enum Type {
